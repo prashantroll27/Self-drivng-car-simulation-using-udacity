@@ -1,43 +1,35 @@
-A self-driving car, also known as an autonomous vehicle, driverless car, or robotic car, is a car incorporating vehicular automation, that is, 
-a ground vehicle that is capable of sensing its environment and moving safely with little or no human input.
+Complete Self-Driving Car
 
+This project is a self-driving car project that is designed to be used with the Udacity self-driving car simulator. The project is built on top of the TensorFlow and Keras deep learning libraries.
 
-**********Steps to clone the repository:***************
+Installation
 
-Using the GitHub web interface
-
-Go to the GitHub repository URL (https://github.com/entbappy/Complete-Self-Driving-Car/blob/main/README.md).
-
-Click on the "Code" button.
-
-Click on the "Clone or download" button.
-
-Copy the provided clone URL.
-
-Open a terminal window.
-
-Navigate to the directory where you want to clone the repository.
-
-Use the git clone command followed by the URL you copied in step 4. For example:
-
+Clone the repository:
 Bash
 
 git clone https://github.com/entbappy/Complete-Self-Driving-Car.git
-This will create a local copy of the repository on your machine.
-
-Using the git command-line tool
-
-Open a terminal window.
-
-Navigate to the directory where you want to clone the repository.
-
-Use the git clone command followed by the URL of the repository. For example: 1    
- 1. 
-github.com
-MIT
-github.com
-
+Create a virtual environment:
 Bash
 
-git clone https://github.com/entbappy/Complete-Self-Driving-Car.git
-This will create a local copy of the repository on your machine.
+python3 -m venv venv
+Activate the virtual environment:
+Bash
+
+source venv/bin/activate
+Install the requirements:   
+Bash
+
+pip install -r requirements.txt
+Usage
+
+Download the Udacity self-driving car simulator: https://github.com/udacity/self-driving-car-sim
+Run the simulator.
+In the simulator, select the "Training Mode" option.
+In the terminal, run the following command:
+Bash
+
+python drive.py
+Contributing
+
+We welcome contributions to this project. Please submit a pull request with your changes.
+
