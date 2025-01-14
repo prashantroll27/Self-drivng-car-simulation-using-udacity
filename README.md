@@ -28,6 +28,13 @@ In the simulator, select the "Training Mode" option.
 In the terminal, run the following command:
 Bash
 
+DEMO
+<video width="320" height="240" controls>
+  <source src="">
+  Your browser does not support the video tag.
+</video>
+
+
 python drive.py
 Contributing
 
